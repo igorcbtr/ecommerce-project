@@ -1,12 +1,44 @@
-# React + Vite
+# 🛒 Ecommerce Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React + Vite** eCommerce project built as a learning and practice project for front-end development.  
+It simulates an online store, allowing users to browse products, add them to the cart, and navigate between pages. 🚀
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Technologies Used
+- **React** – main library for building the user interface
+- **Vite** – fast and modern bundler for development
+- **React Router** – for page navigation
+- **CSS Modules / Sass** – for component styling
+- **Local State Management** – to handle the shopping cart
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Features
+- Browse and list products 🛍️  
+- Add products to the shopping cart 🛒  
+- View product details 🔍  
+- Navigate between pages: Home, Products, Cart 🏠
+
+---
+
+## 💻 Installation & Running Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/igorcbtr/ecommerce-project.git
+2. Navigate to the project folder:
+
+cd ecommerce-project
+
+
+3 . Install dependencies:
+
+4 . npm install
+
+
+5 . Start the development server:
+
+npm run dev
+
+
+Open your browser at the address shown in the terminal (usually http://localhost:5173/). 🌐
