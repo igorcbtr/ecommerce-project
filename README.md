@@ -1,4 +1,4 @@
-# 🛒 Ecommerce Project
+# 🛒 Ecommerce Project - Working on ...
 
 A **React + Vite** eCommerce project built as a learning and practice project for front-end development.  
 It simulates an online store, allowing users to browse products, add them to the cart, and navigate between pages. 🚀
