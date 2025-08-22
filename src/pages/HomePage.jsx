@@ -4,6 +4,11 @@ import "./HomePage.css";
 import CheckMark from "../assets/images/icons/checkmark.png";
 import HomeFavIcon from "../assets/images/home-favicon.png";
 export function HomePage() {
+  fetch('http://localhost:3000/api/products').then((response) => {
+    return response.json()
+    }).then((data) => {
+      console.log(data);
+    })
   return (
     <>
       <link rel="icon" type="image/svg+xml" href={HomeFavIcon} />
