@@ -3,7 +3,7 @@ import "./App.css";
 import { HomePage } from "./pages/HomePage";
 import { CheckoutPage } from "./pages/checkhout/CheckoutPage";
 import { OrdersPage } from "./pages/OrdersPage";
-import { TrackingPage } from "./pages/TrackingPace";
+import { TrackingPage } from "./pages/TrackingPage";
 function App() {
   return (
     <Routes>

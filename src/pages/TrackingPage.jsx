@@ -2,11 +2,12 @@ import { Header } from "../components/Header";
 import "../components/Header.css";
 import "./TrackingPage.css";
 import { Link } from "react-router";
+import TrackingPageFavIcon from '../assets/images/tracking-favicon.png'
 export function TrackingPage() {
   return (
     <>
       <title>Tracking</title>
-      <link rel="shortcut icon" href="tracking-favicon.png" type="image/x-icon" />
+      <link rel="shortcut icon" href={TrackingPageFavIcon}type="image/x-icon" />
       <Header />
       <div class="tracking-page">
         <div class="order-tracking">
