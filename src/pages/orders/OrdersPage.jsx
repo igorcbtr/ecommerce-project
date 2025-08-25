@@ -24,7 +24,7 @@ export function OrdersPage({ cart }) {
 
       <div className="orders-page">
         <div className="page-title">Your Orders</div>
-        <OrdersGrid orders={orders} BuyAgain={BuyAgain}/>
+        <OrdersGrid orders={orders}/>
       </div>
     </>
   );
