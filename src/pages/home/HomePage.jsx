@@ -14,8 +14,10 @@ export function HomePage({ cart, loadCart }) {
     getHomeData();
   }, []);
 
+  window.axios=axios;
   return (
     <>
+
       <link rel="icon" type="image/svg+xml" href={HomeFavIcon} />
       <title>Ecommerce Project</title>
       <Header cart={cart} />
